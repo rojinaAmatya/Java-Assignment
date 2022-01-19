@@ -9,9 +9,11 @@ public class Assignment4 {
 
         System.out.println("firstNum:"+ firstNum + " " + "secondNum:" + secondNum + " "+ "thirdNum:"+ thirdNum);
 
-        firstNum = firstNum +100;
-        secondNum = secondNum + 100;
-        thirdNum = thirdNum - 200;
+        firstNum = firstNum +secondNum+thirdNum;
+        secondNum = firstNum-secondNum;
+        thirdNum = secondNum-thirdNum;
+        secondNum= secondNum-thirdNum;
+        firstNum= firstNum-secondNum-thirdNum;
 
         System.out.println("-----Output after Swapping-----");
         System.out.println("firstNum:"+ firstNum + " " + "secondNum:" + secondNum + " "+ "thirdNum:"+ thirdNum);
