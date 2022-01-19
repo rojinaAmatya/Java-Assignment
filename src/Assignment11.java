@@ -13,20 +13,18 @@ public class Assignment11 {
         da = (da/100) * salary;
         hra = (hra/100) * salary;
 
-        double grossAmt = (salary + ta + da +hra)/12;
-        double netIncome =  salary-grossAmt;
+        double grossAmt = (salary + ta + da +hra);
 
         pf = (pf/100) * salary;
         tax = (tax/100) * salary;
 
-        double finalAmt = netIncome + pf + tax;
+        double netAmt = grossAmt - pf - tax;
 
         System.out.println("Gross Amount is: " + "$"+ grossAmt);
-        System.out.println("Net Amount is: " + "$" + netIncome );
-        System.out.println("Net income including pf and tax: "+ "$" + finalAmt);
+        System.out.println("Net income including pf and tax: "+ "$" + netAmt);
 
-        //output --> Gross amt: $10837.5, net amt: $74162.5,
-        // net income including pf and tax : $112412.5
+        //output --> Gross amt: $10837.5
+        // net income including pf and tax : $91800.0
 
     }
 }
