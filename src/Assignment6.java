@@ -1,7 +1,7 @@
 public class Assignment6 {
 
     public static void main(String[] args) {
-        //swap four number using temp variable;
+        //swap four number without using temp variable;
 
         int firstNum = 100, //200 -- output
                 secondNum = 200, //300 -- output
