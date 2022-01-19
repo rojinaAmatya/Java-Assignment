@@ -11,7 +11,7 @@ public class Assignment1 {
         firstNum= secondNum;
         secondNum = temp;
 
-        System.out.println("-----Output after Swapping-----");
+        System.out.println("------Output after Swapping------");
         System.out.println("firstNum:" + firstNum + " " +"SecondNum:" + secondNum);
     }
 }
