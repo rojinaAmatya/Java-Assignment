@@ -8,8 +8,10 @@ public class Assignment10 {
 
         double interestAmt = (principal * time * rate)/100;
         double finalAmt = principal + interestAmt;
-        System.out.println("Interest Amount:" + interestAmt);
-        System.out.println("The final amount:" + finalAmt);
+        System.out.println("Interest Amount: " + "$"+interestAmt);
+        System.out.println("The final amount: " + "$"+finalAmt);
+
+        //output --> Interest amount : 170000 , final amount: 670000
 
     }
 }
