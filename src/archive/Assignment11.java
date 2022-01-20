@@ -1,3 +1,5 @@
+package archive;
+
 public class Assignment11 {
 
     //Salary is 85000, company provides ta,da,hra. Calculate gross amt and

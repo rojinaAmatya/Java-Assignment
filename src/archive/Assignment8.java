@@ -1,3 +1,5 @@
+package archive;
+
 public class Assignment8 {
 
     //Mr.Sampath went to Dominos and ordered 2 pizzas, each pizza cost 399.0

@@ -1,3 +1,5 @@
+package archive;
+
 public class Assignment9 {
 
     //Salary is $85000, pay tax = 20% of salary, calculate tax amt, display tax amt

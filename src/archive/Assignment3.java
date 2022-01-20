@@ -1,7 +1,11 @@
+package archive;
+
 public class Assignment3 {
 
     public static void main(String[] args) {
         //swap three number using temp variable;
+
+
 
         int temp = 0,
                 firstNum = 100, //200 -- output

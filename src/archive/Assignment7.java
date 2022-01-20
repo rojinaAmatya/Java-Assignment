@@ -1,3 +1,5 @@
+package archive;
+
 public class Assignment7 {
 
     //JioFiber silver plan cost is $699 + gst 18%, calculate final cost

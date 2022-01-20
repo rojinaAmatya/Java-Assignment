@@ -1,3 +1,5 @@
+package archive;
+
 public class Assignment10 {
 
     //Deposit 500000 for 5 yrs with rate of interest 6.8%. calculate interest amt and final amt

@@ -1,10 +1,11 @@
-public class Assignment5 {
+package archive;
+
+public class Assignment6 {
 
     public static void main(String[] args) {
-        //swap four number using temp variable;
+        //swap four number without using temp variable;
 
-        int temp = 0,
-                firstNum = 100, //200 -- output
+        int firstNum = 100, //200 -- output
                 secondNum = 200, //300 -- output
                 thirdNum = 300, //400 -- output
                 fourthNum = 400; //100 -- output
@@ -12,15 +13,14 @@ public class Assignment5 {
         System.out.println("firstNum:" + firstNum + " "+ "secondNum:" + secondNum + " "+ "thirdNum:" + thirdNum
                 + " "+ "fourthNum:" + fourthNum);
 
-        temp = firstNum;
         firstNum = secondNum;
         secondNum = thirdNum;
-        thirdNum = fourthNum;
-        fourthNum = temp;
+        thirdNum= fourthNum;
+        fourthNum = thirdNum-secondNum;
+
 
         System.out.println("------Output after Swapping------");
         System.out.println("firstNum:" + firstNum + " "+ "secondNum:" + secondNum + " "+ "thirdNum:" + thirdNum
                 + " "+ "fourthNum:" + fourthNum);
-
     }
 }
