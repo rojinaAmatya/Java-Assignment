@@ -5,9 +5,14 @@ import java.util.Scanner;
 public class RestaurantMenuApp {
 
     static void bill(){
-        System.out.println("*********************************************");
-        System.out.println("Biyani Bill : " + BiryaniDetails.biryani_total);
-        System.out.println("*********************************************");
+        System.out.println("*--------------------------------------------*");
+        System.out.println("Biryani Bill : " + BiryaniDetails.biryani_total);
+        System.out.println("Ice-cream Bill : " + IceCreamDetails.ice_cream_total);
+
+        int total = BiryaniDetails.biryani_total + IceCreamDetails.ice_cream_total;
+        System.out.println("Total Bill: " + total);
+        System.out.println("*--------------------------------------------*");
+
     }
 
 
@@ -33,6 +38,11 @@ public class RestaurantMenuApp {
                 case 1:
                     BiryaniDetails details = new BiryaniDetails();
                     details.biryaniMenu();
+                    break;
+
+                case 3:
+                    IceCreamDetails iceDetails = new IceCreamDetails();
+                    iceDetails.iceCreamMenu();
                     break;
 
                 case 4:
