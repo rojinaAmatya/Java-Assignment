@@ -3,7 +3,6 @@ package Assignement2.RestaurantApp;
 import java.util.Scanner;
 
 public class BiryaniDetails {
-
     Scanner sc = new Scanner(System.in);
     int chk_biryani_price = 120;
     int veg_biryani_price = 100;
