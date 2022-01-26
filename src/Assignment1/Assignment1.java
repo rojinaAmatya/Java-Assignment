@@ -1,3 +1,5 @@
+package Assignment1;
+
 public class Assignment1 {
 
     //swap two number using temp variable

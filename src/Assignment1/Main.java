@@ -1,6 +1,10 @@
+package Assignment1;
+
+import Assignment1.Assignment1;
+
 public class Main {
     public static void main(String[] args) {
-        Assignment1  assn = new Assignment1();
+        Assignment1 assn = new Assignment1();
 
         System.out.println("*************** Problem 1 ***************");
         assn.problem1();
