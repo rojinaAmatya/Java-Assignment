@@ -18,7 +18,7 @@ public class IceCreamDetails {
         int choc_cones = sc.nextInt();
         choc_icecream_bill = choc_cones * choc_icecream_price;
         ice_cream_total += choc_icecream_bill;
-        System.out.println(choc_cones + " cone of chocolate ice-cream: " + choc_icecream_bill);
+        System.out.println(choc_cones + " cone of chocolate ice-cream: $" + choc_icecream_bill);
     }
 
     void vanillaIcecream() {
@@ -26,7 +26,7 @@ public class IceCreamDetails {
         int van_cones = sc.nextInt();
         van_icecream_bill = van_cones * van_icecream_price;
         ice_cream_total += van_icecream_bill;
-        System.out.println(van_cones + " cone of vanilla ice-cream: " + van_icecream_bill);
+        System.out.println(van_cones + " cone of vanilla ice-cream: $" + van_icecream_bill);
     }
 
     void strawberryIcecream() {
@@ -34,7 +34,7 @@ public class IceCreamDetails {
         int straw_cones = sc.nextInt();
         straw_icecream_bill = straw_cones * straw_icecream_price;
         ice_cream_total += straw_icecream_bill;
-        System.out.println(straw_cones + " cone of strawberry ice-cream: " + straw_icecream_bill);
+        System.out.println(straw_cones + " cone of strawberry ice-cream: $" + straw_icecream_bill);
     }
 
 

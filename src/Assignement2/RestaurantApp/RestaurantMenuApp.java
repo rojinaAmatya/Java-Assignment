@@ -6,13 +6,14 @@ public class RestaurantMenuApp {
 
     static void bill(){
         System.out.println("*--------------------------------------------*");
-        System.out.println("Biryani Bill : " + BiryaniDetails.biryani_total);
-        System.out.println("Ice-cream Bill : " + IceCreamDetails.ice_cream_total);
-        System.out.println("Soft Drinks Bill: " + SoftDrinksDetails.soft_drink_total);
+        System.out.println("Biryani Bill : $" + BiryaniDetails.biryani_total);
+        System.out.println("Ice-cream Bill : $" + IceCreamDetails.ice_cream_total);
+        System.out.println("Soft Drinks Bill: $" + SoftDrinksDetails.soft_drink_total);
+        System.out.println("Hot Drinks Bill: $"+ HotDrinksDetails.hot_drink_total);
 
         int total = BiryaniDetails.biryani_total + IceCreamDetails.ice_cream_total+
-                SoftDrinksDetails.soft_drink_total ;
-        System.out.println("Total Bill: " + total);
+                SoftDrinksDetails.soft_drink_total + HotDrinksDetails.hot_drink_total ;
+        System.out.println("Total Bill: $" + total);
         System.out.println("*--------------------------------------------*");
 
     }

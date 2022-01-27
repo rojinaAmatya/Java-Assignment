@@ -15,7 +15,7 @@ public class BiryaniDetails {
         int chk_biryani_plates = sc.nextInt();
         chk_biryani_bill = chk_biryani_plates * chk_biryani_price;
         biryani_total += chk_biryani_bill;
-        System.out.println(chk_biryani_plates + " plate of chicken Biryani: " + chk_biryani_bill);
+        System.out.println(chk_biryani_plates + " plate of chicken Biryani: $" + chk_biryani_bill);
     }
 
     void vegBiryani(){
@@ -23,7 +23,7 @@ public class BiryaniDetails {
         int veg_biryani_plates = sc.nextInt();
         veg_biryani_bill = veg_biryani_plates * veg_biryani_price;
         biryani_total += veg_biryani_bill;
-        System.out.println(veg_biryani_plates + " plate of chicken Biryani: " + veg_biryani_bill);
+        System.out.println(veg_biryani_plates + " plate of chicken Biryani: $" + veg_biryani_bill);
     }
 
     public void biryaniMenu() {

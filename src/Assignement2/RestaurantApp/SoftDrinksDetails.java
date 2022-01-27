@@ -84,6 +84,9 @@ public class SoftDrinksDetails {
                 case 5:
                     DrinksDetails.main(null);
 
+                default:
+                    System.out.println("Please choose between 1 to 5: ");
+
             }
         }
     }

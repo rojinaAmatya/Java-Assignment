@@ -19,10 +19,15 @@ public class DrinksDetails {
             System.out.println("Enter the choice from the Menu: ");
             int choice = scan.nextInt();
             SoftDrinksDetails soft = new SoftDrinksDetails();
+            HotDrinksDetails hot = new HotDrinksDetails();
 
             switch (choice) {
                 case 1:
                     soft.softDrinks();
+                    break;
+
+                case 2:
+                    hot.hotDrinks();
                     break;
 
                 case 3:
