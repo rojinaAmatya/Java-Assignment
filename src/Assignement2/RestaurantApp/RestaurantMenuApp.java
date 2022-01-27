@@ -8,8 +8,10 @@ public class RestaurantMenuApp {
         System.out.println("*--------------------------------------------*");
         System.out.println("Biryani Bill : " + BiryaniDetails.biryani_total);
         System.out.println("Ice-cream Bill : " + IceCreamDetails.ice_cream_total);
+        System.out.println("Soft Drinks Bill: " + SoftDrinksDetails.soft_drink_total);
 
-        int total = BiryaniDetails.biryani_total + IceCreamDetails.ice_cream_total;
+        int total = BiryaniDetails.biryani_total + IceCreamDetails.ice_cream_total+
+                SoftDrinksDetails.soft_drink_total ;
         System.out.println("Total Bill: " + total);
         System.out.println("*--------------------------------------------*");
 
@@ -40,6 +42,11 @@ public class RestaurantMenuApp {
                     details.biryaniMenu();
                     break;
 
+                case 2:
+                    DrinksDetails drinkDet = new DrinksDetails();
+                    drinkDet.main(null);
+                    break;
+
                 case 3:
                     IceCreamDetails iceDetails = new IceCreamDetails();
                     iceDetails.iceCreamMenu();
@@ -47,6 +54,10 @@ public class RestaurantMenuApp {
 
                 case 4:
                     bill();
+
+                case 5:
+                    System.out.println("Thank you for using the application");
+                    System.exit(0);
 
                 default:
                     System.out.println("Please choose between 1 to 5");
