@@ -1,6 +1,6 @@
 package Assignment3;
 
-public class Question8 {
+public class Question08 {
     // Write a Java program to find the duplicate values of an array of string values
     static void duplicateValue(String arr[]){
         System.out.println("Duplicate String Value are: ");

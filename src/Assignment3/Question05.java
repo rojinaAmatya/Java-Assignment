@@ -1,6 +1,6 @@
 package Assignment3;
 
-public class Question5 {
+public class Question05 {
     //Write a Java program to find the maximum and minimum value of an array
     static void findMax(int arr[]){
         int max = arr[0];

@@ -2,7 +2,7 @@ package Assignment3;
 
 import java.util.Scanner;
 
-public class Question3 {
+public class Question03 {
     //Write a Java program to find the index of an array element
     static int findIndex(int arr[], int el)
     {

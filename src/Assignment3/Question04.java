@@ -2,7 +2,7 @@ package Assignment3;
 
 import java.util.Scanner;
 
-public class Question4 {
+public class Question04 {
     //Write a Java program to remove a specific element from an array
     static void removeElement(int arr[], int n){
 

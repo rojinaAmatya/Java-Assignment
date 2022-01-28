@@ -1,6 +1,6 @@
 package Assignment3;
 
-public class Question1 {
+public class Question01 {
 
     //Write a Java program to calculate the average value of array
     static void calcAverage(int arr[]){

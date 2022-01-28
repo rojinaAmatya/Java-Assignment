@@ -2,7 +2,7 @@ package Assignment3;
 
 import java.util.Scanner;
 
-public class Question2 {
+public class Question02 {
     //Write a Java program to test if an array contains a specific value
     static boolean valueContains(int arr[], int val){
         for(int i= 0; i < arr.length; i++){

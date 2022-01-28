@@ -1,6 +1,6 @@
 package Assignment3;
 
-public class Question9 {
+public class Question09 {
     //Write a Java program to find the common elements between two arrays (string values)
     static void commonElement(String arr1[], String arr2[]){
 

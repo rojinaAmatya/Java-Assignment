@@ -1,6 +1,6 @@
 package Assignment3;
 
-public class Question7 {
+public class Question07 {
     //Write a Java program to find the duplicate values of an array of an integer values
     static void duplicateValue(int arr[]){
         int temp= 0;

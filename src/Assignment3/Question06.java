@@ -1,6 +1,6 @@
 package Assignment3;
 
-public class Question6 {
+public class Question06 {
     //Write a Java program to reverse an array of integer values
     static void reverseArray(int arr[]){
         System.out.println("Original Array: ");
