@@ -29,14 +29,14 @@ public class UserDetails {
                     break;
 
                 case 2:
-                    UserClient[] viewAllUser = daoImpl.viewAllUser();
+                    User[] viewAllUser = daoImpl.viewAllUser();
 
                     System.out.println("******************************************************************************************");
-                    System.out.println("UserNum\t FName\t LName\t Email\t Mobile Number\t Username\t Password");
+                    System.out.println("UserNum\t FName\t LName\t Email\t Mobile Number\t Username\t ");
                     System.out.println("******************************************************************************************");
 
                     if(viewAllUser != null) {
-                        for (UserClient user : viewAllUser) {
+                        for (User user : viewAllUser) {
                             System.out.println(user.getUser_num() + "\t" + user.getFirst_name() + "\t" + user.getLast_name()
                                     + "\t" + user.getEmail() + "\t" + user.getMobile_number() + "\t" + user.getUsername());
                         }
@@ -50,7 +50,7 @@ public class UserDetails {
 
                 case 3:
                     System.out.println("Enter the user id:");
-                    UserClient user = daoImpl.viewUser(sc.nextInt());
+                    User user = daoImpl.viewUser(sc.nextInt());
                     if(user!= null){
                         System.out.println(user.getUser_num()+ "\t" + user.getFirst_name() + "\t" + user.getLast_name()
                                 + "\t" + user.getEmail() + "\t" + user.getMobile_number() + "\t"+ user.getUsername());
