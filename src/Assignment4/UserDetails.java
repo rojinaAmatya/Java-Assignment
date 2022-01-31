@@ -38,8 +38,7 @@ public class UserDetails {
                     if(viewAllUser != null) {
                         for (UserClient user : viewAllUser) {
                             System.out.println(user.getUser_num() + "\t" + user.getFirst_name() + "\t" + user.getLast_name()
-                                    + "\t" + user.getEmail() + "\t" + user.getMobile_number() + "\t" + user.getUsername()
-                                    + "\t" + user.getPassword());
+                                    + "\t" + user.getEmail() + "\t" + user.getMobile_number() + "\t" + user.getUsername());
                         }
                     }
                     else{
@@ -54,8 +53,7 @@ public class UserDetails {
                     UserClient user = daoImpl.viewUser(sc.nextInt());
                     if(user!= null){
                         System.out.println(user.getUser_num()+ "\t" + user.getFirst_name() + "\t" + user.getLast_name()
-                                + "\t" + user.getEmail() + "\t" + user.getMobile_number() + "\t"+ user.getUsername()
-                                + "\t" + user.getPassword());
+                                + "\t" + user.getEmail() + "\t" + user.getMobile_number() + "\t"+ user.getUsername());
                     }
                     else{
                         System.out.println("User record Not found");
