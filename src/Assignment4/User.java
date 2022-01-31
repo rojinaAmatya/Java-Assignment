@@ -1,6 +1,6 @@
 package Assignment4;
 
-public class UserClient {
+public class Register {
     //non- static variable / instance variable
     private int user_num;
     private String first_name;
@@ -12,9 +12,9 @@ public class UserClient {
 
 
     //constructor
-    public UserClient(int user_num, String first_name, String last_name,
-                      String email, long mobile_number, String username,
-                      String password) {
+    public Register(int user_num, String first_name, String last_name,
+                    String email, long mobile_number, String username,
+                    String password) {
         this.user_num = user_num;
         this.first_name = first_name;
         this.last_name = last_name;
@@ -25,7 +25,7 @@ public class UserClient {
     }
 
     //default constructor
-    public UserClient(){
+    public Register(){
     }
 
     public int getUser_num() {
