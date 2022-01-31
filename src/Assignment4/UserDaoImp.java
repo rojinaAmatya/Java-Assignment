@@ -4,15 +4,15 @@ import java.util.Scanner;
 
 public class UserDaoImp {
 
-    static UserClient[] addRegister;
+    static User[] addRegister;
 
     Scanner sc = new Scanner(System.in);
     public void addRegister(){
         System.out.println("How many user would you like register? ");
         int size = sc.nextInt();
-        addRegister = new UserClient[size];
+        addRegister = new User[size];
         for(int i =0; i < addRegister.length; ++i){
-            System.out.println("Enter User Register number: ");
+            System.out.println("Enter User ID number: ");
             int user_num = sc.nextInt();
             System.out.println("Enter User first name: ");
             String first_name = sc.next();
@@ -28,24 +28,24 @@ public class UserDaoImp {
             String password = sc.next();
 
 
-            UserClient userClient = new UserClient(user_num,first_name, last_name,email,
+            User register = new User(user_num,first_name, last_name,email,
                                     mobile_number,username,password);
 
-            addRegister[i] = userClient;
+            addRegister[i] = register;
             System.out.println("User registered successfully");
         }//end of loop
 
     }//end of addRegister
 
-    public UserClient[] viewAllUser(){
+    public User[] viewAllUser(){
         return addRegister;
 
     }//end of view all user information
 
-    public UserClient viewUser(int user_num)
+    public User viewUser(int user_num)
     {
         if(addRegister != null) {
-            for(UserClient user: addRegister ){
+            for(User user: addRegister ){
                 if (user != null) {
                     if (user.getUser_num() == user_num) {
                         return user;
