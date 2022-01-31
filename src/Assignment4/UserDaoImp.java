@@ -44,9 +44,13 @@ public class UserDaoImp {
 
     public UserClient viewUser(int user_num)
     {
-        for(UserClient user: addRegister ){
-            if(user.getUser_num()== user_num){
-                return user;
+        if(addRegister != null) {
+            for(UserClient user: addRegister ){
+                if (user != null) {
+                    if (user.getUser_num() == user_num) {
+                        return user;
+                    }
+                }
             }
         }
         return null;
