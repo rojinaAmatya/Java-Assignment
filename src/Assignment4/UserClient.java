@@ -1,8 +1,5 @@
 package Assignment4;
 
-import jdk.nashorn.internal.objects.annotations.Getter;
-
-
 public class UserClient {
     //non- static variable / instance variable
     private int user_num;
