@@ -62,6 +62,7 @@ public class UserDetails {
                     break;
 
                 case 4:
+                    UserMenu.main(null);
                 default:
                     System.out.println("Please choose between 1 to 4:" );
 
