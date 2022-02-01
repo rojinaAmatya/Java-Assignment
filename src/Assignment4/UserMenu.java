@@ -21,6 +21,12 @@ public class UserMenu {
                     details.userDetails();
                     break;
 
+
+                case 2:
+                    Login loginDetails = new Login();
+                    loginDetails.login();
+                    break;
+
                 case 3:
                     System.out.println("Thank you for using this application");
                     System.exit(0);
