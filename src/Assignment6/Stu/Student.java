@@ -1,6 +1,6 @@
 package Assignment6;
 
-public class Student {
+class Student {
     private int studentId;
     private String studentName;
     private long mobileNum;
@@ -56,5 +56,7 @@ public class Student {
     }
 
 }
+
+
 
 
